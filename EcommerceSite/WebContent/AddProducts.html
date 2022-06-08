@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AddProducts</title>
+<style>
+    form{
+        left: 40%;
+        position: absolute;
+        top: 25%;
+        
+    }
+     .text{
+        padding: 8px;
+     font-size: 16px;
+     border-width: 2px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 16px;
+     box-shadow: 0px 0px 4px rgba(66,66,66,.59);
+     text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+     margin-left: 20px;
+    }
+    /* From uiverse.io by @alexroumi */
+/* From uiverse.io by @alexroumi */
+button {
+ padding: 15px 25px;
+ border: unset;
+ border-radius: 15px;
+ color: #212121;
+ z-index: 1;
+ background: #e8e8e8;
+ position: relative;
+ font-weight: 1000;
+ font-size: 17px;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms;
+ overflow: hidden;
+}
+
+button::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 0;
+ border-radius: 15px;
+ background-color: #212121;
+ z-index: -1;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms
+}
+
+button:hover {
+ color: #e8e8e8;
+}
+
+button:hover::before {
+ width: 100%;
+}
+</style>
+</head>
+<body>
+<form action = "ProductSaveInformation.jsp">
+<center><h1>ADD PRODUCT</h1></center>
+Product Name: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input class="text" type="text" name = "product_name"><br><br>
+Product Description:<input class="text" type="text" name = "product_desc"><br><br>
+Product Price:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input class="text" type="text" name = "product_price"><br><br>
+Image URL:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input class="text" type="text" name="product_url"><br><br>
+Category:<input type="radio" value="men" name="product_cat">men
+<input type="radio" value="women" name="product_cat">women
+<input type="radio" value="kids" name="product_cat">kids<br>
+<br><button  >Add Product</button>
+</form>
+</body>
+</html>

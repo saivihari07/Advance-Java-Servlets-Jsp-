@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Second/C:\/Users\/d1\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.3.14\/spring-jdbc-5.3.14.jar&lt;org.springframework.jdbc.datasource(DriverManagerDataSource.class[DriverManagerDataSource" modifiers="33" timestamp="1641458557965"/>
+<typeInfo handle="=Second/C:\/Users\/d1\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.3.14\/spring-jdbc-5.3.14.jar&lt;org.springframework.jdbc.core(JdbcTemplate.class[JdbcTemplate" modifiers="33" timestamp="1641458557965"/>
+<typeInfo handle="=springorm/C:\/Users\/d1\/.m2\/repository\/org\/springframework\/spring-orm\/5.3.14\/spring-orm-5.3.14.jar&lt;org.springframework.orm.hibernate5(HibernateTemplate.class[HibernateTemplate" modifiers="33" timestamp="1641470498017"/>
+</typeInfoHistroy>

@@ -1,0 +1,9 @@
+
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—ôÏ²H¤RMINORZ
+CODE_SMELL
+_squid:S1068"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ8ğÙ™õâ/H«RMAJORZ
+CODE_SMELL
+\squid:S1068"(Remove this unused "name" private field.(Ë¥¼8ğÙ™õâ/H¬RMAJORZ
+CODE_SMELL
+\squid:S1068"(Remove this unused "city" private field.(“øÌà8ğÙ™õâ/H­RMAJORZ
+CODE_SMELL

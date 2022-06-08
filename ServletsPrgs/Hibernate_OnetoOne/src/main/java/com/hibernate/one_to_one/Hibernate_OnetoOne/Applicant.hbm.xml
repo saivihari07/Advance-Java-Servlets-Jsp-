@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping package="com.hibernate.one_to_one.Hibernate_OnetoOne">
+    <class name="Applicant" table="Applicants">
+        <id name="applicantId" type="int">
+            <column name="Applicant_Id"></column>
+            <generator class="increment"></generator>
+        </id>
+        <property name="name" column="Name"></property>
+        <property name="age" type="int" column="Age"></property>
+        <property name="city" column="City"></property>
+ 
+        <one-to-one name="passport" class="com.hibernate.one_to_one.Hibernate_OnetoOne.Passport" cascade="save-update"></one-to-one>
+    </class>
+</hibernate-mapping>  
